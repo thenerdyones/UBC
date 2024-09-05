@@ -58,7 +58,7 @@ form.addEventListener('submit', async (e) => {
                 const urlEncoded = new URLSearchParams(formData).toString()
 
                 try {
-                        const respone = await fetch('http://localhost:3000/api/v1/tasks', {
+                        const respone = await fetch('https://ubc-server-mu.vercel.app/api', {
                                 method: "POST",
                                 body: urlEncoded,
                                 headers: {
