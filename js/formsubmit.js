@@ -58,7 +58,7 @@ form.addEventListener('submit', async (e) => {
                 const urlEncoded = new URLSearchParams(formData).toString()
 
                 try {
-                        const respone = await fetch('https://ubc-server-mu.vercel.app/api', {
+                        const respone = await fetch('https://ubc-server-k22j4f13k-codecraters-projects.vercel.app/api', {
                                 method: "POST",
                                 body: urlEncoded,
                                 headers: {
